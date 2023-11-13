@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:rgb(226,18,164)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">shopping</a>
+            <button class="navbar-toggler" type="buttton" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">products</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropDown" style="background-color:pink;">
+                            <li><a class="dropdown-item" href="#">watches</a></li>
+                            <li><a class="dropdown-item" href="#">speakers</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled">About us</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me=2" type="search" placeholder="search" aria-label="search">
+                <button class="btn btn-outline-success" type="submit">search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid mt-3">
+        <h2> accessories</h2>
+
+    </div>
+    <div id="demo" class="carousel slide carousel-white " data-bs-carousel="carousel" data-bs-ride="carousel" data-interval="400">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 900px;">
+                <img src="boat.jpg" alt="headset" class="d-block" style="width: 100%;">
+                <div class="carousel-caption">
+                    <h3>Boat Headset</h3>
+                </div>
+            </div>
+            <div class="carousel-item active" style="height: 900px;">
+                <img src="earpod1.jpg" alt="earpod" class="d-block" style="width: 100%;">
+                <div class="carousel-caption">
+                    <h3>Boat Earpod</h3>
+                </div>
+            </div>
+            <div class="carousel-item active" style="height: 900px;">
+                <img src="watch2.jpg" alt="watch" class="d-block" style="width: 100%;">
+                <div class="carousel-caption">
+                    <h3>Watch</h3>
+                </div>
+            </div>
+            </div>
+
+
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon">
+                    
+                </span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon">
+                    
+                </span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+            </div>
+            <div>
+                <h3><center>Explore with Boat Products</center></h3>
+            </div>
+            
+            <div class="d-flex flex-row coloumn-gap-3">
+                <div class="card" style="width: 200px;">
+            <img class="card-img-top mx-auto" src="speaker.jpg" alt="Card image" style="width: 100%;">
+                
+            
+            <div class="card-body">
+                <h4 class="card-title"> Speaker</h4>
+                <p class="card-text">Wireless speaker with 5W RMS immersive sound,IPXV4 water Resistance,upto 11HR playtime</p>
+            </div>
+            </div>
+            <div class="card" style="width: 200px;">
+                <img class="card-img-top mx-auto" src="pod.jpg" alt="Card image" style="width: 100%;">
+                
+            <div class="card-body">
+                <h4 class="card-title" > Earpod </h4>
+                <p class="card-text">Active noise cancelling,Transparency mode,Theatre like sound.10 hr playtime</p>
+            </div>
+
+            </div>
+            <div class="card" style="width: 200px;">
+                <img class="card-img-top mx-auto" src="wired.jpg" alt="Card image" style="width: 100%;">
+                
+            <div class="card-body">
+                <h4 class="card-title">wired headset</h4>
+                <p class="card-text">Active noise cancelling,wired headset,one of the best quality audio listening...1 year Warranty..available in all colours</p>
+            </div>
+
+            </div>
+            <div class="card" style="width: 200px;">
+                <img class="card-img-top mx-auto" src="eg.jpg" alt="Card image" style="width: 100%;">
+                
+            <div class="card-body">
+                <h4 class="card-title">smart watch</h4>
+                <p class="card-text">Boat wave sigma smartwatch with 2.01 HD Display,Bluetooth calling ,700+ Active modes,sleep scores,water Resistant...1 year warranty </p>
+            </div>
+
+            </div>
+                
+            
+                
+            
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
